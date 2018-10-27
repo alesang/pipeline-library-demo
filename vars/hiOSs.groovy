@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 def call() {
-    oss = ["windows", "linux", "unix", "ubuntu"]
+    def oss = ["windows", "linux", "unix", "ubuntu"]
     
     for (i in oss) {
         echo i
