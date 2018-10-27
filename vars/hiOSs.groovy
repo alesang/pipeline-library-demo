@@ -1,4 +1,3 @@
-
-def helloOSs (def os = linux ){
+def call(def os = linux ) {
     println("Hello" + os)
 }
