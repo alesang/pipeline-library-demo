@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def call(String os ) {
+def call() {
     oss=['windows', 'linux', 'unix', 'ubuntu']
     
     for (def i in oss) {
