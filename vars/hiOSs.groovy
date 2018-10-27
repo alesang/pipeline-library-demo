@@ -1,6 +1,9 @@
 #!/usr/bin/env groovy
 
 def call(String os ) {
-    println("Hello" + os)
-    echo "you're inside the function"
+    oss=['windows', 'linux', 'unix', 'ubuntu']
+    
+    for (def i in oss) {
+        echo $i
+    }
 }
