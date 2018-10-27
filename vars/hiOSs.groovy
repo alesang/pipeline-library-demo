@@ -5,6 +5,7 @@ def call() {
     
     for (i in oss) {
         echo i
+        println(i)
         echo "inside looop"
     }
 }
